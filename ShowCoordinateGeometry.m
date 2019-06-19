@@ -1,0 +1,14 @@
+viscircles(gca,[0,0],10,'EdgeColor','b');
+viscircles(gca,[0,0],50,'EdgeColor','k');
+rectangle('Position',[-10, -10, 20, 20],'EdgeColor','b', 'LineWidth',2);
+rectangle('Position',[-22.5, -52.5, 45, 2.5],'EdgeColor','r', 'LineWidth',2);
+line([0,22.5],[50,-50],'Color','r', 'LineWidth',2);
+line([0,-22.5],[50,-50],'Color','r', 'LineWidth',2);
+line([0,0],[50,-50],'Color','g', 'LineWidth',2);
+text(-8,-13,'Radius = 10','Color','b','FontSize',12);
+text(30,3,'ScanR = 50','Color','k','FontSize',12);
+text(-5,-45,'YL = 600','Color','r','FontSize',12);
+text(-10,-55,'DecLength = 45','Color','r','FontSize',12);
+text(1,-33,'DistD = 100','Color','g','FontSize',12);
+title('Geometric Parameters'); 
+grid on;
